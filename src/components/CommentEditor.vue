@@ -7,7 +7,7 @@
           href="#respond-0"
           class="cancel-comment-reply-link"
           @click="cancelReply"
-        >Cancel Reply</a>
+        >取消回复</a>
       </small>
     </h3>
     <form class="comment-form">

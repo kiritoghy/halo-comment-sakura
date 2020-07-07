@@ -22,8 +22,8 @@
                   <img :alt="comment.author" :src="avatar" class="avatar" height="24" width="24">
                   {{ comment.author }}
                   <span v-if="comment.isAdmin" class="bb-comment isauthor" title="博主">博主</span>
-                  <span v-if="configs.showUserAgent" class="useragent-info" v-html="compileUserAgent"></span>
                 </a>
+                <span v-if="configs.showUserAgent" class="useragent-info" v-html="compileUserAgent"></span>
               </h4>
             </div>
             <a rel="nofollow" class="comment-reply-link" :style="editing?'display:block;':''" :href="'#respond-'+comment.id" @click="handleReplyClick">回复</a>
