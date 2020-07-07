@@ -969,11 +969,16 @@
             text-transform: none;
             color: rgba(0,0,0,.35);
         }
-
+        
+        .comment .useragent-info{
+            font-size: 12px !important;
+        }
 
         .useragent-info {
             img {
-                vertical-align: sub;
+                display: inline-block;
+                margin-right: 0;
+                // vertical-align: sub;
                 width: 14px;
                 height: 14px;
                 border: 0;
