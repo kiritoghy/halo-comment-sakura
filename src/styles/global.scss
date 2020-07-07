@@ -970,7 +970,7 @@
             color: rgba(0,0,0,.35);
         }
         
-        .comment .useragent-info{
+        .useragent-info{
             font-size: 12px !important;
         }
 
@@ -978,6 +978,7 @@
             img {
                 display: inline-block;
                 margin-right: 0;
+                vertical-align: -2px;
                 // vertical-align: sub;
                 width: 14px;
                 height: 14px;
@@ -1137,6 +1138,7 @@
         color: #fb7299;
         border-radius: 3px;
         font-weight: 400;
+        margin-right: 5px;
     }
 }
 
