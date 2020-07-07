@@ -20,12 +20,13 @@
               <h4 class="author">
                 <a :href="comment.authorUrl" rel="nofollow" target="_blank">
                   <img :alt="comment.author" :src="avatar" class="avatar" height="24" width="24">
-                  <span v-if="comment.isAdmin" class="bb-comment isauthor" title="博主">博主</span>
                   {{ comment.author }}
+                  <span v-if="comment.isAdmin" class="bb-comment isauthor" title="博主">博主</span>
+                  <span v-if="configs.showUserAgent" class="useragent-info" v-html="compileUserAgent"></span>
                 </a>
               </h4>
             </div>
-            <a rel="nofollow" class="comment-reply-link" :style="editing?'display:block;':''" :href="'#respond-'+comment.id" @click="handleReplyClick">Reply</a>
+            <a rel="nofollow" class="comment-reply-link" :style="editing?'display:block;':''" :href="'#respond-'+comment.id" @click="handleReplyClick">回复</a>
             <div class="right">
               <div class="info">
                 <time
@@ -33,7 +34,6 @@
                   itemprop="datePublished"
                   :datetime="comment.createTime"
                   >发布于 {{ createTimeAgo }}</time>
-                  <span v-if="configs.showUserAgent" class="useragent-info" v-html="compileUserAgent"></span>
               </div>
             </div>
           </section>
@@ -198,8 +198,8 @@ export default {
           break;
       }
 
-      return `( <img src="` + browserImg + ` ">  `+ result.browser.name + " " + result.browser.version + ` 
-       <img src="` + uaImg + `"> `+ result.os.name + " " + result.os.version + ` )`;
+      return `&nbsp;<img src="` + browserImg + ` ">  `+ result.browser.name + " " + result.browser.version + ` 
+       &nbsp;&nbsp;&nbsp;<img src="` + uaImg + `"> `+ result.os.name + " " + result.os.version;
     },
     selfAddDepth() {
       return this.depth + 1;

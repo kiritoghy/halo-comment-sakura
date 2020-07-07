@@ -183,6 +183,11 @@
             background-color: transparent;
         }
 
+        textarea:focus{
+            background-position-y: 200px;
+            transition: all 0.2s ease-in-out 0s;
+        }
+
         input {
             border: 1px solid #ddd;
             width: 100%;
@@ -732,7 +737,7 @@
 
     .commentwrap {
         width: 100%;
-        max-width: 860px;
+        // max-width: 860px;
         margin: 0 auto;
         padding: 0;
     }
@@ -868,6 +873,7 @@
             .comment-at {
                 color: #99ce00;
                 text-decoration: none;
+                margin-right: 8px;
             }
         }
 
@@ -1062,7 +1068,7 @@
 
     .comment-respond {
         width: 100%;
-        max-width: 860px;
+        // max-width: 860px;
         margin: 0 auto;
         padding: 0;
 
