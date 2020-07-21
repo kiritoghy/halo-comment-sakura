@@ -3303,12 +3303,12 @@ module.exports = function Type(x) {
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"8aaa9024-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/CommentEditor.vue?vue&type=template&id=2afa2d93&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.isCurrReply)?_c('section',{ref:"editor",staticClass:"comment-editor",attrs:{"id":_vm.respondId,"role":"form"}},[(_vm.isReply)?_c('h3',{staticClass:"comment-reply-title",attrs:{"id":"reply-title"}},[_c('small',[_c('a',{staticClass:"cancel-comment-reply-link",attrs:{"rel":"nofollow","href":"#respond-0"},on:{"click":_vm.cancelReply}},[_vm._v("取消回复")])])]):_vm._e(),_c('form',{staticClass:"comment-form"},[(!_vm.previewMode)?_c('div',{staticClass:"comment-textarea"},[_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.comment.content),expression:"comment.content"}],staticClass:"commentbody",attrs:{"required":"required","aria-required":"true","tabindex":"4","placeholder":_vm.options.comment_content_placeholder || '你是我一生只会遇见一次的惊喜 ...'},domProps:{"value":(_vm.comment.content)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.comment, "content", $event.target.value)}}}),_c('label',{staticClass:"input-label"},[_vm._v(_vm._s(_vm.options.comment_content_placeholder || '你是我一生只会遇见一次的惊喜 ...'))])]):_c('div',{staticClass:"comment-preview markdown-body",domProps:{"innerHTML":_vm._s(_vm.renderedContent)}}),_c('div',{attrs:{"id":"upload-img-show"}}),_c('p',{staticClass:"no-select",attrs:{"id":"emotion-toggle"}},[_c('span',{on:{"click":_vm.handleToogleDialogEmoji}},[_vm._v(_vm._s(!_vm.emojiDialogVisible ? '戳我试试 OωO' : '嘿嘿嘿 ヾ(≧∇≦*)ゝ'))])]),_c('transition',{attrs:{"name":"emoji-fade"}},[_c('VEmojiPicker',{directives:[{name:"show",rawName:"v-show",value:(_vm.emojiDialogVisible),expression:"emojiDialogVisible"}],attrs:{"pack":_vm.emojiPack},on:{"select":_vm.handleSelectEmoji}})],1),_c('div',{staticClass:"author-info"},[_c('div',{staticClass:"commentator"},[_c('img',{staticClass:"avatar",attrs:{"src":_vm.avatar}}),_c('div',{staticClass:"socila-check",class:[_vm.checkType.back]},[_c('i',{class:[_vm.checkType.icon],attrs:{"aria-hidden":"true"}})])]),_c('PopupInput',{staticClass:"cmt-popup cmt-author",attrs:{"popupStyle":"margin-left: -115px;width: 230px;","popupText":"你好呀","inputType":"text","placeholder":"* 昵称","id":"author"},on:{"blurInput":_vm.pullInfo},model:{value:(_vm.comment.author),callback:function ($$v) {_vm.$set(_vm.comment, "author", $$v)},expression:"comment.author"}}),_c('PopupInput',{staticClass:"cmt-popup",attrs:{"popupStyle":"margin-left: -65px;width: 130px;","popupText":"你将收到回复通知","inputType":"text","placeholder":"* 电子邮件","id":"email"},on:{"blurInput":_vm.pullInfo},model:{value:(_vm.comment.email),callback:function ($$v) {_vm.$set(_vm.comment, "email", $$v)},expression:"comment.email"}}),_c('PopupInput',{staticClass:"cmt-popup",attrs:{"popupStyle":"margin-left: -55px;width: 110px;","popupText":"禁止小广告😀","inputType":"text","placeholder":"个人站点","id":"url"},model:{value:(_vm.comment.authorUrl),callback:function ($$v) {_vm.$set(_vm.comment, "authorUrl", $$v)},expression:"comment.authorUrl"}})],1),_c('ul',{staticClass:"comment-buttons"},[(_vm.comment.content)?_c('li',{staticClass:"middle",staticStyle:{"margin-right":"5px"}},[_c('a',{staticClass:"button-preview-edit",attrs:{"href":"javascript:void(0)","rel":"nofollow noopener"},on:{"click":_vm.handlePreviewContent}},[_vm._v(_vm._s(_vm.previewMode?'编辑':'预览'))])]):_vm._e(),_c('li',{staticClass:"middle"},[_c('a',{staticClass:"button-submit",attrs:{"href":"javascript:void(0)","tabindex":"5","rel":"nofollow noopener"},on:{"click":_vm.handleSubmitClick}},[_vm._v("提交")])])])],1)]):_vm._e()}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"8aaa9024-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/CommentEditor.vue?vue&type=template&id=12990215&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.isCurrReply)?_c('section',{ref:"editor",staticClass:"comment-editor",attrs:{"id":_vm.respondId,"role":"form"}},[(_vm.isReply)?_c('h3',{staticClass:"comment-reply-title",attrs:{"id":"reply-title"}},[_c('small',[_c('a',{staticClass:"cancel-comment-reply-link",attrs:{"rel":"nofollow","href":"#respond-0"},on:{"click":_vm.cancelReply}},[_vm._v("取消回复")])])]):_vm._e(),_c('form',{staticClass:"comment-form"},[(!_vm.previewMode)?_c('div',{staticClass:"comment-textarea"},[_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.comment.content),expression:"comment.content"}],staticClass:"commentbody",attrs:{"required":"required","aria-required":"true","tabindex":"4","placeholder":_vm.options.comment_content_placeholder || '留个脚印吧(ノ｀Д)ノ'},domProps:{"value":(_vm.comment.content)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.comment, "content", $event.target.value)}}}),_c('label',{staticClass:"input-label"},[_vm._v(_vm._s(_vm.options.comment_content_placeholder || '留个脚印吧(ノ｀Д)ノ'))])]):_c('div',{staticClass:"comment-preview markdown-body",domProps:{"innerHTML":_vm._s(_vm.renderedContent)}}),_c('div',{attrs:{"id":"upload-img-show"}}),_c('p',{staticClass:"no-select",attrs:{"id":"emotion-toggle"}},[_c('span',{on:{"click":_vm.handleToogleDialogEmoji}},[_vm._v(_vm._s(!_vm.emojiDialogVisible ? '戳我试试 OωO' : '嘿嘿嘿 ヾ(≧∇≦*)ゝ'))])]),_c('transition',{attrs:{"name":"emoji-fade"}},[_c('VEmojiPicker',{directives:[{name:"show",rawName:"v-show",value:(_vm.emojiDialogVisible),expression:"emojiDialogVisible"}],attrs:{"pack":_vm.emojiPack},on:{"select":_vm.handleSelectEmoji}})],1),_c('div',{staticClass:"author-info"},[_c('div',{staticClass:"commentator"},[_c('img',{staticClass:"avatar",attrs:{"src":_vm.avatar}}),_c('div',{staticClass:"socila-check",class:[_vm.checkType.back]},[_c('i',{class:[_vm.checkType.icon],attrs:{"aria-hidden":"true"}})])]),_c('PopupInput',{staticClass:"cmt-popup cmt-author",attrs:{"popupStyle":"margin-left: -115px;width: 90px;","popupText":"你好呀","inputType":"text","placeholder":"* 昵称","id":"author"},on:{"blurInput":_vm.pullInfo},model:{value:(_vm.comment.author),callback:function ($$v) {_vm.$set(_vm.comment, "author", $$v)},expression:"comment.author"}}),_c('PopupInput',{staticClass:"cmt-popup",attrs:{"popupStyle":"margin-left: -65px;width: 130px;","popupText":"你将收到回复通知","inputType":"text","placeholder":"* 电子邮件","id":"email"},on:{"blurInput":_vm.pullInfo},model:{value:(_vm.comment.email),callback:function ($$v) {_vm.$set(_vm.comment, "email", $$v)},expression:"comment.email"}}),_c('PopupInput',{staticClass:"cmt-popup",attrs:{"popupStyle":"margin-left: -55px;width: 110px;","popupText":"禁止小广告😀","inputType":"text","placeholder":"个人站点","id":"url"},model:{value:(_vm.comment.authorUrl),callback:function ($$v) {_vm.$set(_vm.comment, "authorUrl", $$v)},expression:"comment.authorUrl"}})],1),_c('ul',{staticClass:"comment-buttons"},[(_vm.comment.content)?_c('li',{staticClass:"middle",staticStyle:{"margin-right":"5px"}},[_c('a',{staticClass:"button-preview-edit",attrs:{"href":"javascript:void(0)","rel":"nofollow noopener"},on:{"click":_vm.handlePreviewContent}},[_vm._v(_vm._s(_vm.previewMode?'编辑':'预览'))])]):_vm._e(),_c('li',{staticClass:"middle"},[_c('a',{staticClass:"button-submit",attrs:{"href":"javascript:void(0)","tabindex":"5","rel":"nofollow noopener"},on:{"click":_vm.handleSubmitClick}},[_vm._v("提交")])])])],1)]):_vm._e()}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/CommentEditor.vue?vue&type=template&id=2afa2d93&
+// CONCATENATED MODULE: ./src/components/CommentEditor.vue?vue&type=template&id=12990215&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.js
 var es_symbol = __webpack_require__("a4d3");
@@ -3325,20 +3325,14 @@ var es_function_name = __webpack_require__("b0c0");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.constructor.js
 var es_number_constructor = __webpack_require__("a9e3");
 
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.get-own-property-descriptor.js
-var es_object_get_own_property_descriptor = __webpack_require__("e439");
-
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.get-own-property-descriptors.js
 var es_object_get_own_property_descriptors = __webpack_require__("dbb4");
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.keys.js
-var es_object_keys = __webpack_require__("b64b");
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.to-string.js
 var es_object_to_string = __webpack_require__("d3b7");
 
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.regexp.exec.js
-var es_regexp_exec = __webpack_require__("ac1f");
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.promise.js
+var es_promise = __webpack_require__("e6cf");
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.split.js
 var es_string_split = __webpack_require__("1276");
@@ -3468,6 +3462,9 @@ var BilibiliEmojivue_type_template_id_e1039c80_staticRenderFns = []
 
 
 // CONCATENATED MODULE: ./src/components/EmojiPicker/BilibiliEmoji.vue?vue&type=template&id=e1039c80&
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.keys.js
+var es_object_keys = __webpack_require__("b64b");
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/BilibiliEmoji.vue?vue&type=script&lang=js&
 
@@ -3932,8 +3929,6 @@ var globals = __webpack_require__("0e4d");
 
 
 
-
-
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -4078,7 +4073,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
     replyComment: {
       type: Object,
       required: false,
-      default: function _default() {}
+      default: () => {}
     },
     options: {
       required: false,
@@ -4089,7 +4084,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
       required: true
     }
   },
-  data: function data() {
+
+  data() {
     return {
       emojiPack: emojis2["default"],
       emojiDialogVisible: false,
@@ -4112,25 +4108,32 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
       avatar: this.configs.gravatarSource + "?d=mm"
     };
   },
+
   computed: {
-    renderedContent: function renderedContent() {
+    renderedContent() {
       var html = this.comment.content ? marked_default()(this.comment.content) : "";
       return Object(util["f" /* return2Br */])(Object(emojiutil["a" /* renderedEmojiHtml */])(html));
     },
-    commentValid: function commentValid() {
+
+    commentValid() {
       return !Object(util["b" /* isEmpty */])(this.comment.author) && !Object(util["b" /* isEmpty */])(this.comment.email) && !Object(util["b" /* isEmpty */])(this.comment.content);
     },
-    isReply: function isReply() {
+
+    isReply() {
       return this.globalData.replyId != 0;
     },
-    isCurrReply: function isCurrReply() {
+
+    isCurrReply() {
       return !this.replyComment || this.globalData.replyId == this.replyComment.id;
     },
-    respondId: function respondId() {
+
+    respondId() {
       return "respond-" + (!this.replyComment ? 0 : this.replyComment.id);
     }
+
   },
-  created: function created() {
+
+  created() {
     // Get info from local storage
     var author = localStorage.getItem("comment-author");
     var authorUrl = localStorage.getItem("comment-authorUrl");
@@ -4141,13 +4144,12 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
     this.comment.email = email ? email : "";
     this.avatar = avatar ? avatar : this.avatar; // this.handleGetGithubUser();
   },
+
   // mounted() {
   //   autosize(document.querySelector("textarea"));
   // },
   methods: {
-    handleSubmitClick: function handleSubmitClick() {
-      var _this = this;
-
+    handleSubmitClick() {
       if (Object(util["b" /* isEmpty */])(this.comment.author)) {
         this.$tips("昵称不能为空", 5000);
         return;
@@ -4171,24 +4173,25 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
         this.comment.parentId = this.replyComment.id;
       }
 
-      api_comment["a" /* default */].createComment(this.target, this.comment).then(function (response) {
+      api_comment["a" /* default */].createComment(this.target, this.comment).then(response => {
         // Store comment author, email, authorUrl
-        localStorage.setItem("comment-author", _this.comment.author);
-        localStorage.setItem("comment-email", _this.comment.email);
-        localStorage.setItem("comment-authorUrl", _this.comment.authorUrl);
-        localStorage.setItem("avatar", _this.avatar); // clear comment
+        localStorage.setItem("comment-author", this.comment.author);
+        localStorage.setItem("comment-email", this.comment.email);
+        localStorage.setItem("comment-authorUrl", this.comment.authorUrl);
+        localStorage.setItem("avatar", this.avatar); // clear comment
 
-        _this.comment.content = "";
-
-        _this.handleCommentCreated(response.data.data);
-      }).catch(function (error) {
-        _this.handleFailedToCreateComment(error.response);
+        this.comment.content = "";
+        this.handleCommentCreated(response.data.data);
+      }).catch(error => {
+        this.handleFailedToCreateComment(error.response);
       });
     },
-    handlePreviewContent: function handlePreviewContent() {
+
+    handlePreviewContent() {
       this.previewMode = !this.previewMode;
     },
-    handleCommentCreated: function handleCommentCreated(createdComment) {
+
+    handleCommentCreated(createdComment) {
       if (createdComment.status === "PUBLISHED") {
         // 成功后直接新增新的评论node
         try {
@@ -4202,7 +4205,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
         this.$tips("您的评论已经投递至博主，等待博主审核！", 5000);
       }
     },
-    createdNewNode: function createdNewNode(newComment) {
+
+    createdNewNode(newComment) {
       var elDom = this.$root.$el;
       var pr = {
         targetId: this.targetId,
@@ -4217,13 +4221,11 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
         depth: this.$parent.selfAddDepth
       });
 
-      var CommentNode = function CommentNode() {
-        return Promise.resolve(/* import() */).then(__webpack_require__.bind(null, "f9af"));
-      }; // 创建一个组件
+      var CommentNode = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, "f9af")); // 创建一个组件
 
 
       var comment = new external_Vue_default.a({
-        render: function render(h) {
+        render: h => {
           return h(CommentNode, {
             props: pr
           });
@@ -4265,9 +4267,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
       comment.$mount(nodeDom);
     },
-    handleFailedToCreateComment: function handleFailedToCreateComment(response) {
-      var _this2 = this;
 
+    handleFailedToCreateComment(response) {
       if (response.status === 400) {
         this.$tips(response.data.message);
 
@@ -4275,17 +4276,19 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
           var errorDetail = response.data.data;
 
           if (Object(util["c" /* isObject */])(errorDetail)) {
-            Object.keys(errorDetail).forEach(function (key) {
-              _this2.$tips(errorDetail[key]);
+            Object.keys(errorDetail).forEach(key => {
+              this.$tips(errorDetail[key]);
             });
           }
         }
       }
     },
-    handleToogleDialogEmoji: function handleToogleDialogEmoji() {
+
+    handleToogleDialogEmoji() {
       this.emojiDialogVisible = !this.emojiDialogVisible;
     },
-    handleSelectEmoji: function handleSelectEmoji(args) {
+
+    handleSelectEmoji(args) {
       if (args.length == 0) {
         return;
       }
@@ -4314,7 +4317,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
       this.comment.content += " " + emojiComment + " ";
     },
-    handleGithubLogin: function handleGithubLogin() {
+
+    handleGithubLogin() {
       var githubOauthUrl = "http://github.com/login/oauth/authorize";
       var query = {
         client_id: "a1aacd842bc158abd65b",
@@ -4323,9 +4327,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
       };
       window.location.href = "".concat(githubOauthUrl, "?").concat(Object(util["e" /* queryStringify */])(query));
     },
-    handleGetGithubUser: function handleGetGithubUser() {
-      var _this3 = this;
 
+    handleGetGithubUser() {
       var accessToken = this.handleGetGithubAccessToken();
       axios_default.a.get("https://cors-anywhere.herokuapp.com/https://api.github.com/user", {
         params: {
@@ -4333,13 +4336,12 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
         }
       }).then(function (response) {
         this.$tips(response);
-      }).catch(function (error) {
-        _this3.$tips(error);
+      }).catch(error => {
+        this.$tips(error);
       });
     },
-    handleGetGithubAccessToken: function handleGetGithubAccessToken() {
-      var _this4 = this;
 
+    handleGetGithubAccessToken() {
       var code = Object(util["a" /* getUrlKey */])("code");
 
       if (code) {
@@ -4355,28 +4357,27 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
           var access_token = arg[1];
           this.$tips(access_token);
           return access_token;
-        }).catch(function (error) {
-          _this4.$tips(error);
+        }).catch(error => {
+          this.$tips(error);
         });
       }
     },
-    cancelReply: function cancelReply() {
+
+    cancelReply() {
       // 当replyId为0时则为回复博主
       this.globalData.replyId = 0;
       this.globalData.isReplyData = false;
     },
-    pullInfo: function pullInfo() {
-      var _this5 = this;
 
+    pullInfo() {
       var author = this.comment.author;
 
       if (author.length != 0 && Object(util["d" /* isQQ */])(author)) {
         // 如果是QQ号，则拉取QQ头像
-        this.pullQQInfo(function () {
-          _this5.$tips("拉取QQ信息失败！尝试拉取Gravatar", 2000); // 如果QQ拉取失败，则尝试拉取Gravatar
+        this.pullQQInfo(() => {
+          this.$tips("拉取QQ信息失败！尝试拉取Gravatar", 2000); // 如果QQ拉取失败，则尝试拉取Gravatar
 
-
-          _this5.pullGravatarInfo();
+          this.pullGravatarInfo();
         });
         return;
       } // 防止刚拉取完QQ头像就拉取Gravatar头像
@@ -4390,7 +4391,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
       this.pullGravatarInfo();
     },
-    pullQQInfo: function pullQQInfo(errorQQCallback) {
+
+    pullQQInfo(errorQQCallback) {
       var _self = this; // 拉取QQ昵称，头像等
 
 
@@ -4411,11 +4413,12 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
         _self.comment.email = data.email;
         _self.avatar = data.avatar;
         _self.lockPullAvatar = true;
-      }).catch(function () {
+      }).catch(() => {
         errorQQCallback();
       });
     },
-    pullGravatarInfo: function pullGravatarInfo() {
+
+    pullGravatarInfo() {
       if (!this.comment.email || !Object(util["h" /* validEmail */])(this.comment.email)) {
         this.avatar = this.configs.gravatarSource + "?d=" + this.options.comment_gravatar_default;
       }
@@ -4423,6 +4426,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
       var gravatarMd5 = md5_default()(this.comment.email);
       this.avatar = this.configs.gravatarSource + "/".concat(gravatarMd5, "?s=256&d=") + this.options.comment_gravatar_default;
     }
+
   }
 });
 // CONCATENATED MODULE: ./src/components/CommentEditor.vue?vue&type=script&lang=js&
@@ -4443,7 +4447,7 @@ var CommentEditor_component = Object(componentNormalizer["a" /* default */])(
   null,
   null,
   null
-  
+  ,true
 )
 
 /* harmony default export */ var CommentEditor = __webpack_exports__["a"] = (CommentEditor_component.exports);
@@ -15116,29 +15120,6 @@ module.exports = function (target, src, options) {
   for (var key in src) redefine(target, key, src[key], options);
   return target;
 };
-
-
-/***/ }),
-
-/***/ "e439":
-/***/ (function(module, exports, __webpack_require__) {
-
-var $ = __webpack_require__("23e7");
-var fails = __webpack_require__("d039");
-var toIndexedObject = __webpack_require__("fc6a");
-var nativeGetOwnPropertyDescriptor = __webpack_require__("06cf").f;
-var DESCRIPTORS = __webpack_require__("83ab");
-
-var FAILS_ON_PRIMITIVES = fails(function () { nativeGetOwnPropertyDescriptor(1); });
-var FORCED = !DESCRIPTORS || FAILS_ON_PRIMITIVES;
-
-// `Object.getOwnPropertyDescriptor` method
-// https://tc39.github.io/ecma262/#sec-object.getownpropertydescriptor
-$({ target: 'Object', stat: true, forced: FORCED, sham: !DESCRIPTORS }, {
-  getOwnPropertyDescriptor: function getOwnPropertyDescriptor(it, key) {
-    return nativeGetOwnPropertyDescriptor(toIndexedObject(it), key);
-  }
-});
 
 
 /***/ }),

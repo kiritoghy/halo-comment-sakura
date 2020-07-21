@@ -16,11 +16,11 @@
           required="required"
           aria-required="true"
           tabindex="4"
-          :placeholder="options.comment_content_placeholder || '你是我一生只会遇见一次的惊喜 ...'"
+          :placeholder="options.comment_content_placeholder || '留个脚印吧(ノ｀Д)ノ'"
           v-model="comment.content"
           class="commentbody"
         ></textarea>
-        <label class="input-label">{{options.comment_content_placeholder || '你是我一生只会遇见一次的惊喜 ...'}}</label>
+        <label class="input-label">{{options.comment_content_placeholder || '留个脚印吧(ノ｀Д)ノ'}}</label>
       </div>
       <div class="comment-preview markdown-body" v-else v-html="renderedContent"></div>
       <!-- 上传图片预览 -->
@@ -42,7 +42,7 @@
         </div>
         <PopupInput
           class="cmt-popup cmt-author"
-          popupStyle="margin-left: -115px;width: 230px;"
+          popupStyle="margin-left: -115px;width: 90px;"
           popupText="你好呀"
           inputType="text"
           placeholder="* 昵称"
