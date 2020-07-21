@@ -43,7 +43,7 @@
         <PopupInput
           class="cmt-popup cmt-author"
           popupStyle="margin-left: -115px;width: 230px;"
-          popupText="输入QQ号将自动拉取昵称和头像"
+          popupText="你好呀"
           inputType="text"
           placeholder="* 昵称"
           id="author"
